@@ -1,0 +1,20 @@
+# Configuración del plugin TachyonRefreshedExample
+settings:
+  # Directorio donde se guardarán los schematics
+  schematicsFolder: "schematics"
+
+  # Configuración de mensajes
+  messages:
+    prefix: "&8[&bTachyon&8] &7"
+    pos1-set: "&aPrimera posición establecida!"
+    pos2-set: "&aSegunda posición establecida!"
+    schematic-saved: "&aSchematic guardado correctamente!"
+    schematic-loaded: "&aSchematic cargado y pegado correctamente!"
+    error-saving: "&cError al guardar el schematic: %error%"
+    error-loading: "&cError al cargar el schematic: %error%"
+
+  # Configuración de permisos
+  permissions:
+    use: "tachyon.use"
+    save: "tachyon.save"
+    load: "tachyon.load"
